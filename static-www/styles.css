@@ -44,6 +44,25 @@ header {
     margin: 0.5rem;
 }
 
+/* Ajout des styles pour la section "social-links" */
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+}
+
+.social-links a {
+    color: #333;
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-links a:hover {
+    color: #666;
+}
+
 footer {
     background: #333;
     color: #fff;
