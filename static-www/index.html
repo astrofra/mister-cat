@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mister Cat Digital</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-image: url('img/hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        h1 {
+            color: white;
+            font-size: 4rem;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .avatar {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 2rem;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 1rem;
+        }
+
+        .gallery-item {
+            flex: 0 0 100%;
+        }
+
+        @media (min-width: 768px) {
+            .gallery-item {
+                flex: 0 0 48%;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .gallery-item {
+                flex: 0 0 24%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mister Cat Digital</h1>
+    </header>
+    <main>
+        <section class="container">
+            <div class="avatar">
+                <img src="img/avatar.jpg" alt="Avatar de Mister Cat Digital">
+            </div>
+            <h2>Galerie de photos</h2>
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="img/photo_000.jpg" alt="Photo 000">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/photo_001.jpg" alt="Photo 001">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/photo_002.jpg" alt="Photo 002">
+                </div>
+                <div class="gallery-item">
+                    <img src="img/photo_003.jpg" alt="Photo 003">
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
