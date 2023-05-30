@@ -1,0 +1,8 @@
+{
+	"profiles": {
+		"default": {
+			"sRGB": false,
+			"type": "Standard"
+		}
+	}
+}
